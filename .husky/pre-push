@@ -3,4 +3,4 @@
 
 clear &&
 # bun run test &&
-bun run build
+npm run build
