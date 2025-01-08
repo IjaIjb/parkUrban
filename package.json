@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "slow": "next dev",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "preinstall": "npm install --legacy-peer-deps"
   },
  
   "lint-staged": {
