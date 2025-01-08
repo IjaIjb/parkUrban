@@ -14,6 +14,7 @@ import { toIntlCurrency } from "@/common/helpers";
 import useUserTypeRouterPages from "@/common/hooks/useUserTypeRouterPages";
 import { ClipLoader } from "react-spinners";
 
+
 export default function Preview() {
   const cookies = parseCookies();
   const { pushWithUserTypePrefix, goBack, query } = useUserTypeRouterPages();
